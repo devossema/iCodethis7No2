@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(237, 187, 255, 1) 0%, rgba(173, 241, 244, 1) 49%, rgba(254, 222, 183, 1) 100%);
+}
+.container{
+    background-color: radial-gradient(circle, rgba(237, 187, 255, 1) 0%, rgba(173, 241, 244, 1) 49%, rgba(254, 222, 183, 1) 100%);
+    width: 600px;
+    height: 300px;
+    border: 10px white solid;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50%;
+    padding: 15px;
+}
+body h2{
+    font-family: "Merriweather", serif;
+}
+body p, p1, p2{
+    font-family: "Poppins", sans-serif;
+}
+.container .free{
+    padding-left: 5px;
+    width: 200px;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+.container .free p span{
+    font-size: 20px;
+}
+.container .free p{
+    font-size: 35px;
+    padding: 0px;
+    margin: 0;
+    font-weight: 700;
+}
+.container .free p1{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.container .free p2{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.container .free button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #edbbff;
+    font-weight: 800;
+    font-size: 12px;
+}
+.container .standard{
+    padding-left: 0px;
+    width: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.container .standard p span {
+    font-size: 20px;
+}
+
+.container .standard p {
+    font-size: 35px;
+    padding: 0px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.container .standard p1 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.container .standard p2 {
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.container .standard button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #adf1f4;
+    font-weight: 800;
+    font-size: 10px;
+}
+.container .premium{
+    padding-left: 0px;
+    padding-right: 10px;
+    width: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.container .premium p span {
+    font-size: 20px;
+}
+
+.container .premium p {
+    font-size: 35px;
+    padding: 0px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.container .premium p1 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.container .premium p2 {
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.container .premium button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fedeb7;
+    font-weight: 800;
+    font-size: 12px;
+}
